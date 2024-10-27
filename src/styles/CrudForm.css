@@ -1,0 +1,107 @@
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.head-text{
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-con{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-text{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-field{
+    align-self: center;
+    font-size: 18px;
+    width: 98%;
+    padding-left: 2%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: 1px solid #333;
+    transition: all .2s;
+}
+
+.input-field:focus{
+    transform: scale(1.005);
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.select-input{
+    align-self: center;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 1%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: 1px solid #333;
+    transition: all .2s;
+}
+
+.select-input:focus{
+    transform: scale(1.005);
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.errorMsg{
+    margin-top: 5px;
+    color: #c80000;
+    transition: all .5s;
+}
+
+.SubmitBtn{
+    align-self: center;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 1%;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.SubmitBtn:hover{
+    background-color: white;
+    color: #333;
+}
+
+
+
+@media (max-width: 800px) {
+    
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+}
